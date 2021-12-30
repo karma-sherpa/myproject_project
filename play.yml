@@ -7,7 +7,7 @@
     state: present
  - name: copy website
    copy:
-    content: "Hello world!"
+    content: "Hello world"
     dest: /var/www/html/index.html
  - name: restart service
    service:
@@ -18,3 +18,5 @@
    user:
     name: gaurav
     state: present
+
+
